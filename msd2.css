@@ -1,0 +1,60 @@
+#h1{
+    
+    
+    text-align: center;
+    color: rgb(93, 93, 204);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:70px;
+    background-color: white;
+
+}
+body{
+    background-color:white
+    
+}
+hr.new1{
+    
+    border-top: 1.5px solid green;
+    left: 100px;
+    top:200px;
+}
+#About{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    color: black;
+    margin-left: 50px;
+}
+#captain{
+    color: blue; margin-left: 50px;margin-right: 1100px;
+    font-size: 30px;
+}
+#p1{
+    
+    color: blue
+    text-align: center;
+    margin-right: 1100px;
+    margin-left: 300px;
+    /*border: 1px solid black;*/
+    
+    font-family: verdana;
+    text-align: center;
+}
+#dh4{
+    border: 1px black;
+    margin-left: 2200px;
+    margin-top: 150px;
+    position:absolute
+    
+    
+}
+#rightimg{
+    
+    
+    margin-left: 1500px;
+    
+}
+#leftimg{
+    
+    margin-left: 200px;
+}
+

@@ -6,7 +6,19 @@
 * {
   box-sizing: border-box;
 }
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
 
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  border: none;
+  font-size: 17px;
+}
 .menu {
   float: left;
   width: 18%;
@@ -60,6 +72,14 @@
 <div style="background-color:#622eaa;padding:15px;text-align:center;">
   <h1>Welcome to Kairos!</h1>
 </div>
+<div class="topnav">
+    <div class="search-container">
+      <form action="/action_page.php">
+        <input type="text" placeholder="Search.." name="search">
+      </form>
+    </div>
+  </div>
+  
 
 <div style="overflow:auto">
   <div class="menu"><!-- href is for links address like login signup etc-->
@@ -83,7 +103,8 @@
 </div>
 </div>
 
-<div style="background-color:#e5e5e5;text-align:center;padding:10px;margin-top:7px;">Made with help of codewithharry</div>
+<div style="background-color:#e5e5e5;text-align:center;padding:10px;margin-top:7px;">Made with help of codewithharry and w3schools.</div>
+
 
 </body>
 </html>
